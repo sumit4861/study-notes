@@ -1,0 +1,54 @@
+.browse-notes {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.browse-notes h1 {
+  margin-bottom: 24px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.note-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.note-card h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.note-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.view-pdf {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 14px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.view-pdf:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .browse-notes {
+    margin: 20px auto;
+    padding: 12px;
+  }
+}
